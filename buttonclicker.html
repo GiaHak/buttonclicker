@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttonclicker</title>
+    <link rel="stylesheet" href="buttonclicker.css" />
+
+</head>
+<body>
+    <div id="nav">
+        <div class="container">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" name="search" placeholder="Search" class="search">
+            <button class="btn login" onclick="login(this)">Login</button>
+        </div>
+     </div>
+ <!-- //card1// -->
+    <div id="wrapper">
+        <div class="row">
+            <div id="card-content">
+                <h1>ninja</h1>
+
+                <h3>noun</h3>
+                <h4>Plural: <em>ninjas</em></h4>
+            </div>
+            <div id="blurb">
+                <p class="definition-text">
+                    </pclass>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div class="yellowbutton">
+                <button class="btn like" onclick="message()">13 likes</button>
+            </div>
+        </div>
+    </div>
+ <!-- card2 -->
+    <div class="container-2">
+        <div class="row">
+            <div id="card-content">
+                <h1>ninja</h1>
+
+                <h3>noun</h3>
+                <h4>Plural: <em>ninjas</em></h4>
+            </div>
+            <div id="blurb">
+                <p class="definition-text">A <a href="#">programmer</a> who breaks down problems with <a
+                        href="#">zen</a>-like focus</p>
+            </div>
+            <div class="yellowbutton"><button class="btn like" onclick="message()">37 likes</button>
+            </div>
+        </div>
+    </div>
+<!--card3  -->
+    <div class="container3">
+        <div class="column">
+            <h2>Dojonary is defined by YOU</h2>
+            <div class="greenbutton">
+                <button class="btn add" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
